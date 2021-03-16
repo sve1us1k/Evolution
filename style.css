@@ -36,8 +36,22 @@ nav a:hover {
     padding: 10px 30px 10px 30px;
     cursor: pointer;
 }
-.first-block {
-    height: 1520px;
-    background-image: url(Niva.jpg);
-    background-size: 300px;
+.picture {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 430px;
+    background-image: url("niva.jpg");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.picture button  {
+    margin-top: 20px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
 }
