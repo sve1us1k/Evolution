@@ -49,8 +49,40 @@ nav a:hover {
 }
 .picture button  {
     margin-top: 20px;
-    border: 1px solid blue;
-    background-color: blue;
+    border: 1px solid rgba(171, 64, 221, 0.014);
+    background-color: rgb(226, 119, 226);
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+}
+.AboutMe {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+.AboutMe div {
+    height: 180px;
+    padding-top: 200px;
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.Picture-1 {
+    background-image: url("Wheel.jpg");
+}
+.Picture-2 {
+    background-image: url("Wheel.jpg");
+}
+.Picture-3 {
+    background-image: url("Wheel.jpg");
+}
+.Picture-4 {
+    background-image: url("Wheel.jpg");
+}
+.central-container button {
+    margin-top: 20px;
+    border: 1px solid rgba(171, 64, 221, 0.014);
+    background-color: rgb(226, 119, 226);
     border-radius: 5px;
     padding: 10px 30px 10px 30px;
     cursor: pointer;
