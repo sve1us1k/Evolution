@@ -28,10 +28,10 @@ nav a:hover {
     align-items: center;
     justify-content: flex-end;
 }
-.phone-button button {
+.button-top {
     margin-left: 20px;
-    border: 1px solid gray;
-    background-color: transparent;
+    border: 1px solid rgba(171, 64, 221, 0.014);
+    background-color: rgb(226, 119, 226);
     border-radius: 5px;
     padding: 10px 30px 10px 30px;
     cursor: pointer;
@@ -41,13 +41,13 @@ nav a:hover {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 430px;
+    height: 400px;
     background-image: url("niva.jpg");
     background-size: 350px;
     background-repeat: no-repeat;
     background-position: right center;
 }
-.picture button  {
+.button  {
     margin-top: 20px;
     border: 1px solid rgba(171, 64, 221, 0.014);
     background-color: rgb(226, 119, 226);
@@ -66,24 +66,27 @@ nav a:hover {
     background-size: 125px;
     background-repeat: no-repeat;
     background-position: center top;
-}
-.Picture-1 {
     background-image: url("Wheel.jpg");
 }
-.Picture-2 {
-    background-image: url("Wheel.jpg");
+/*bottom-container*/
+.AboutMe-More {                                 
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
 }
-.Picture-3 {
-    background-image: url("Wheel.jpg");
+.AboutMe-More div {
+    width: 333px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 330px;
 }
-.Picture-4 {
-    background-image: url("Wheel.jpg");
+.More-Page-1 {
+    background-image: url("PetrolTruck.jpg");
 }
-.central-container button {
-    margin-top: 20px;
-    border: 1px solid rgba(171, 64, 221, 0.014);
-    background-color: rgb(226, 119, 226);
-    border-radius: 5px;
-    padding: 10px 30px 10px 30px;
-    cursor: pointer;
+.More-Page-2 {
+    background-image: url("RacePin.png");
+}
+.More-Page-3 {
+    background-image: url("Evo.jpg");
 }
