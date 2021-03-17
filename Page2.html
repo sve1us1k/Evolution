@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset='utf-8'>
-    <title>Верстка СкиллБокс</title>
-    <style>
-        html, body {
-            height: 100%;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        h2 {
-            color: red;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Верстка от Skillbox</title>
+    <link rel="stylesheet" href="StyleForSkillbox.css">
 </head>
 <body>
-    <h1>Я - Светик, я еще учусь</h1>
-    <h2>Хочу учиться</h2>
-    Пишите мне в <a href="https://vk.com/sve1us1k" target="_blank">VK</a>
+    <header class="fixed-container">
+        <nav>
+            <a href="#">Я</a>
+            <a href="#">Моя команда</a>
+            <a href="#">Немного фоток</a>
+        </nav>
+        <div class="phone-button">
+            <div>+375 29 681 98 98</div>
+            <button class="button-top">Заказать звонок</button>
+        </div>
+    </header>
+    <section class="fixed-container picture">
+            <h1>Цыганкова Светлана</h1>
+            <p>Мечтаю об эволюции, поэтому я здесь</p>
+            <button class="button">Моя мечта</button>                   
+    </section>
+    <section class="fixed-container">                                       <!-- central-container -->
+        <h2>Чем я занимаюсь</h2>
+        <div class="AboutMe">
+            <div>Работаю диспетчером</div>
+            <div>Являюсь пилотом своей<br>гоночной команды AlexTEAM</div>
+            <div>Хочу научиться верстать сайты</div>
+            <div>Хочу купить свою мечту</div>
+        </div>
+        <button class="button">Узнать больше</button>
+    </section>
+    <section class="fixed-container">                                       <!-- bottom-container -->
+        <h2>Подробнее</h2>
+        <div class="AboutMe-Bottom">
+            <div class="More-Page-1">Работа - это просто работа<br>ничего интересного</div>
+            <div class="More-Page-2">О моей команде</div>
+            <div class="More-Page-3">Автомобили - это жизнь</div>
+        </div>
+    </section>
+    <section class="Blue-container">                                        <!-- blue-container -->                                    
+        <div class="fixed-container">
+            <div class="blue-text">
+                Я не хочу ничего верстать<br>я хочу построить корч и валить боком*
+            </div>
+            <small>* техника прохождения поворотов в управляемом заносе<br>на максимально возможныж для удержания на трассе скорости и угле к траектории</small>
+        </div>
+    </section>
 </body>
 </html>
