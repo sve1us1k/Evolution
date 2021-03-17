@@ -1,5 +1,7 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;                                        /*Зачем для создания всплывающего окна, которое должно идти на всю ширину и всю высоту окна, добавили на весь документ эти два свойства?*/
+    height: 100%;
 }
 section {
     margin-bottom: 60px;
@@ -89,7 +91,7 @@ nav a:hover {
     background-image: url("PetrolTruck.jpg");
 }
 .More-Page-2 {
-    background-image: url("RacePin.png");
+    background-image: url("DriftPin.png");
 }
 .More-Page-3 {
     background-image: url("Evo.jpg");
@@ -108,4 +110,22 @@ nav a:hover {
 }
 small {
     color: rgb(19, 170, 207);
+}
+/*popup-window*/
+.popup-window {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #09b6e463;
+    z-index: 10;                                        /*Зачем применять данное свойство Номер слоя? ЭТо если делаем всплывающее окно (и когда их несколько на странице  ) Плюс слои дают возможность оставаться на этой странице а не переходить на другую????????*/
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.popup {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+
 }
